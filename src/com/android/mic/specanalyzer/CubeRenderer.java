@@ -56,11 +56,6 @@ class CubeRenderer implements GLSurfaceView.Renderer {
 
         mCube.draw(gl);
 
-        gl.glRotatef(mAngle*2.0f, 0, 1, 1);
-        gl.glTranslatef(0.5f, 0.5f, 0.5f);
-
-        mCube.draw(gl);
-
         mAngle += 1.2f;
     }
 
