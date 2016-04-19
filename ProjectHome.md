@@ -1,0 +1,1 @@
+A spectrum analyzer for the android platform to analyze the sound observed through the microphone. Possible applications and reason for making is audio tuning sound systems
